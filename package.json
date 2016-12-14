@@ -1,0 +1,26 @@
+{
+  "name": "leb128",
+  "version": "0.0.0",
+  "description": "LEB128 encoding and decoding for signed and unsinged intergers",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "node --harmony ./node_modules/istanbul/lib/cli.js cover ./test/leb.js",
+    "coveralls": "npm run coverage && coveralls <coverage/lcov.info",
+    "lint": "standard",
+    "test": "node ./test/leb.js"
+  },
+  "keywords": [
+    "leb128"
+  ],
+  "author": "mjbecze <mjbecze@gmail.com>",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "bn.js": "^4.11.6"
+  }
+}
