@@ -31,8 +31,8 @@ console.log(decoded)
 ```
 
 # API
-Use `require(leb128/signed)` for signed encoding and decoding and 
-`require(leb128/unsigned)` for unsigned methods
+Use `require('leb128/signed')` for signed encoding and decoding and 
+`require('leb128/unsigned')` for unsigned methods
 
 ## encode
 
