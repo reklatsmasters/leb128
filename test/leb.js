@@ -4,7 +4,6 @@ const Stream = require('../stream.js')
 
 tape('leb - round trips', t => {
   let stream = new Stream()
-
   let buffer = leb.unsigned.encode(8)
   t.equals(buffer.toString('hex'), '08')
   t.equals(leb.unsigned.decode(buffer), '8')
