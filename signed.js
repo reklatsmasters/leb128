@@ -45,7 +45,7 @@ module.exports = {
     }
 
     function isNegOne (num) {
-      return isNeg && num.toString(2).split('').every(i => i === '1')
+      return isNeg && num.toString(2).indexOf('0') < 0
     }
   },
   /**
