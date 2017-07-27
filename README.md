@@ -1,4 +1,6 @@
 # SYNOPSIS 
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/wanderer/leb128.svg)](https://greenkeeper.io/)
 [![NPM Package](https://img.shields.io/npm/v/leb128.svg?style=flat-square)](https://www.npmjs.org/package/leb128)
 [![Build Status](https://img.shields.io/travis/wanderer/leb128.svg?branch=master&style=flat-square)](https://travis-ci.org/wanderer/leb128)
 [![Coverage Status](https://img.shields.io/coveralls/wanderer/leb128.svg?style=flat-square)](https://coveralls.io/r/wanderer/leb128)
