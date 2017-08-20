@@ -9,6 +9,10 @@
     "lint": "standard",
     "test": "node ./test/leb.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanderer/leb128.git"
+  },
   "keywords": [
     "leb128"
   ],
